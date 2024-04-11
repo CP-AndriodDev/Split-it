@@ -1,4 +1,4 @@
-# Bill Splitter
+# Split-it
 
 ## Table of Contents
 
