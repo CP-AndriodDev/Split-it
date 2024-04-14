@@ -85,9 +85,10 @@ Required Feature
 
 
 <!-- Add picture of your hand sketched wireframes in this section -->
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="low_fidelity_wifeframe" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
+<img src="figma_wifeframe" width=600>
 
 ### [BONUS] Interactive Prototype
 
