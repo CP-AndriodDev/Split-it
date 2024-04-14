@@ -88,7 +88,7 @@ Required Feature
 <img src="low_fidelity_wifeframe" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
-<img src="figma_wifeframe" width=600>
+<img width="286" alt="Screenshot 2024-04-13 at 10 59 52 PM" src="https://github.com/CP-AndriodDev/Split-it/assets/122586425/31a8feec-cd8c-473e-bd9c-5a7b49a57323">
 
 ### [BONUS] Interactive Prototype
 
