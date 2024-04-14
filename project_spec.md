@@ -85,7 +85,7 @@ Required Feature
 
 
 <!-- Add picture of your hand sketched wireframes in this section -->
-<img src="low_fidelity_wifeframe" width=600>
+<img src="https://github.com/CP-AndriodDev/Split-it/assets/122586425/3c6f70bc-bcb3-438d-87f8-310443a3a361" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 <img width="286" alt="Screenshot 2024-04-13 at 10 59 52 PM" src="https://github.com/CP-AndriodDev/Split-it/assets/122586425/31a8feec-cd8c-473e-bd9c-5a7b49a57323">
