@@ -13,7 +13,7 @@ Time spent: **X** hours spent in total
 
 This document provides an overview, project spec, and wireframes for our team's capstone project: An app that **helps users split and save bills!**
 
-If we had to describe this milestone in three (3) emojis, they would be: **emojis here**
+If we had to describe this milestone in three (3) emojis, they would be: 💵👯💚
 
 ## Milestone Requirements
 
