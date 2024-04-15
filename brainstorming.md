@@ -99,42 +99,42 @@ Scope: How well-formed is the scope for this app?
 Mobile: How uniquely mobile is the product experience?
 
 * What makes your app more than a glorified website?
-     * 
+     * This app could be used without wifi, so users could find destinations spontaneously.
 Story: How compelling is the story around this app once completed?
 
 * How clear is the value of this app to your audience?
-     * 
+     * There's a very specific purpose for  this app, so the value is clear. The value is that it would help people find vacation spots.
 * How well would your friends or peers respond to this product idea?
-     * 
+     * Many of my friends are indecisive, so I think they would respond well to the product.
 
 Market: How large or unique is the market for this app?
 
 * What's the size and scale of your potential user base?
-     * 
+     * There are thousands of tourists every year, so there is a very large potential usesr base.
 * Does this app provide huge value to a niche group of people?
-     * 
+     * This app would be very useful for indecisive people.
 * Do you have a well-defined audience of people for this app?
-     * 
+     * Yes
 
 Habit: How habit-forming or addictive is this app?
 
 * How frequently would an average user open and use this app?
-     * 
+     * This app would likely only be opened a couple of times every year.
 
 * Does an average user just consume your app, or do they use it to create something?
-     * 
+     * The average user just consumes the app.
 
 
 Scope: How well-formed is the scope for this app?
 
 * How technically challenging will it be to complete this app by the deadline?
-     * 
+     * I think the basic features would be able to be completed by the deadline, and additional features could be added to make it more technically challenging.
 
 * Is a stripped-down version of this app still interesting to build?
-     * 
+     * The stripped down version could be interesting to build especially one with a unique design.
 
 * How clearly defined is the product you want to build?
-     * 
+     * This app has a clear goal, but the implementation is not set.
 
 # Step 3: Final Choice
 ## Bill Splitter
