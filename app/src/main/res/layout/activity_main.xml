@@ -47,9 +47,14 @@
             <EditText
                 android:id="@+id/etRestaurantName"
                 android:layout_width="170dp"
-                android:layout_height="45dp"
-                android:background="@color/yellow"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/round_corner"
                 android:inputType="numberDecimal"
+                android:paddingStart="7dp"
+                android:paddingTop="9dp"
+                android:paddingEnd="7dp"
+                android:paddingBottom="7dp"
                 app:layout_constraintStart_toStartOf="@id/tvRestaurantName"
                 app:layout_constraintTop_toBottomOf="@id/tvRestaurantName" />
 
@@ -64,9 +69,14 @@
             <EditText
                 android:id="@+id/etBillTotal"
                 android:layout_width="170dp"
-                android:layout_height="45dp"
-                android:background="@color/yellow"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/round_corner"
                 android:inputType="numberDecimal"
+                android:paddingStart="7dp"
+                android:paddingTop="9dp"
+                android:paddingEnd="7dp"
+                android:paddingBottom="7dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tvBillTotal" />
 
@@ -74,6 +84,7 @@
                 android:id="@+id/tvTaxTotal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:text="Tax Total"
                 app:layout_constraintStart_toStartOf="@id/etRestaurantName"
                 app:layout_constraintTop_toBottomOf="@id/etRestaurantName" />
@@ -81,9 +92,14 @@
             <EditText
                 android:id="@+id/etTaxTotal"
                 android:layout_width="170dp"
-                android:layout_height="45dp"
-                android:background="@color/yellow"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/round_corner"
                 android:inputType="numberDecimal"
+                android:paddingStart="7dp"
+                android:paddingTop="9dp"
+                android:paddingEnd="7dp"
+                android:paddingBottom="7dp"
                 app:layout_constraintStart_toStartOf="@id/tvTaxTotal"
                 app:layout_constraintTop_toBottomOf="@id/tvTaxTotal" />
 
@@ -98,9 +114,14 @@
             <EditText
                 android:id="@+id/etSplitAmount"
                 android:layout_width="170dp"
-                android:layout_height="45dp"
-                android:background="@color/yellow"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:background="@drawable/round_corner"
                 android:inputType="numberDecimal"
+                android:paddingStart="7dp"
+                android:paddingTop="9dp"
+                android:paddingEnd="7dp"
+                android:paddingBottom="7dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/tvSplitAmount" />
 
@@ -108,6 +129,7 @@
                 android:id="@+id/tvTipPercentageText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
                 android:text="Tip Percentage: "
                 app:layout_constraintStart_toStartOf="@id/etTaxTotal"
                 app:layout_constraintTop_toBottomOf="@id/etTaxTotal" />
@@ -118,15 +140,17 @@
                 android:layout_height="wrap_content"
                 android:text="15%"
                 app:layout_constraintStart_toEndOf="@id/tvTipPercentageText"
-                app:layout_constraintTop_toBottomOf="@id/etTaxTotal" />
+                app:layout_constraintTop_toTopOf="@id/tvTipPercentageText" />
 
             <SeekBar
                 android:id="@+id/seekBarTipPercentage"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:backgroundTint="@color/green"
+                android:layout_marginTop="3dp"
                 android:max="100"
                 android:progress="15"
+                android:progressTint="@color/green"
+                android:thumbTint="@color/green"
                 app:layout_constraintStart_toStartOf="@id/tvTipPercentage"
                 app:layout_constraintTop_toBottomOf="@id/tvTipPercentage" />
 
@@ -134,6 +158,8 @@
                 android:id="@+id/btnCalculate"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical"
                 android:text="Calculate"
                 android:textColor="#000000"
                 android:theme="@style/AppTheme.Button"
@@ -149,8 +175,7 @@
             android:background="@color/green"
             android:paddingStart="20dp"
             android:paddingTop="10dp"
-            android:paddingEnd="20dp"
-            android:paddingBottom="10dp">
+            android:paddingEnd="20dp">
 
             <TextView
                 android:id="@+id/tvPastReceipts"
