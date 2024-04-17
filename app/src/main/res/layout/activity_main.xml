@@ -50,7 +50,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="3dp"
                 android:background="@drawable/round_corner"
-                android:inputType="numberDecimal"
                 android:paddingStart="7dp"
                 android:paddingTop="9dp"
                 android:paddingEnd="7dp"
