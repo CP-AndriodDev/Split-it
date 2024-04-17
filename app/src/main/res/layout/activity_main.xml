@@ -2,18 +2,174 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="0dp"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/green"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Split It!"
+                android:textAppearance="@style/TextAppearance.Title"
+                android:textSize="40sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tvRestaurantName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Restaurant Name"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/etRestaurantName"
+                android:layout_width="170dp"
+                android:layout_height="45dp"
+                android:background="@color/yellow"
+                android:inputType="numberDecimal"
+                app:layout_constraintStart_toStartOf="@id/tvRestaurantName"
+                app:layout_constraintTop_toBottomOf="@id/tvRestaurantName" />
+
+            <TextView
+                android:id="@+id/tvBillTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Bill Total"
+                app:layout_constraintStart_toStartOf="@id/etBillTotal"
+                app:layout_constraintTop_toTopOf="@id/tvRestaurantName" />
+
+            <EditText
+                android:id="@+id/etBillTotal"
+                android:layout_width="170dp"
+                android:layout_height="45dp"
+                android:background="@color/yellow"
+                android:inputType="numberDecimal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvBillTotal" />
+
+            <TextView
+                android:id="@+id/tvTaxTotal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tax Total"
+                app:layout_constraintStart_toStartOf="@id/etRestaurantName"
+                app:layout_constraintTop_toBottomOf="@id/etRestaurantName" />
+
+            <EditText
+                android:id="@+id/etTaxTotal"
+                android:layout_width="170dp"
+                android:layout_height="45dp"
+                android:background="@color/yellow"
+                android:inputType="numberDecimal"
+                app:layout_constraintStart_toStartOf="@id/tvTaxTotal"
+                app:layout_constraintTop_toBottomOf="@id/tvTaxTotal" />
+
+            <TextView
+                android:id="@+id/tvSplitAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Split amount"
+                app:layout_constraintStart_toStartOf="@id/etSplitAmount"
+                app:layout_constraintTop_toTopOf="@id/tvTaxTotal" />
+
+            <EditText
+                android:id="@+id/etSplitAmount"
+                android:layout_width="170dp"
+                android:layout_height="45dp"
+                android:background="@color/yellow"
+                android:inputType="numberDecimal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvSplitAmount" />
+
+            <TextView
+                android:id="@+id/tvTipPercentageText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tip Percentage: "
+                app:layout_constraintStart_toStartOf="@id/etTaxTotal"
+                app:layout_constraintTop_toBottomOf="@id/etTaxTotal" />
+
+            <TextView
+                android:id="@+id/tvTipPercentage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="15%"
+                app:layout_constraintStart_toEndOf="@id/tvTipPercentageText"
+                app:layout_constraintTop_toBottomOf="@id/etTaxTotal" />
+
+            <SeekBar
+                android:id="@+id/seekBarTipPercentage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/green"
+                android:max="100"
+                android:progress="15"
+                app:layout_constraintStart_toStartOf="@id/tvTipPercentage"
+                app:layout_constraintTop_toBottomOf="@id/tvTipPercentage" />
+
+            <Button
+                android:id="@+id/btnCalculate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Calculate"
+                android:textColor="#000000"
+                android:theme="@style/AppTheme.Button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/seekBarTipPercentage" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/green"
+            android:paddingStart="20dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="10dp">
+
+            <TextView
+                android:id="@+id/tvPastReceipts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Past receipts"
+                android:textColor="#000000"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                app:layout_constraintStart_toStartOf="@id/tvPastReceipts"
+                app:layout_constraintTop_toBottomOf="@id/tvPastReceipts" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
