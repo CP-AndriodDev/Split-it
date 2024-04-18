@@ -49,7 +49,7 @@
                 android:layout_width="170dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="3dp"
-                android:background="@drawable/round_corner"
+                android:background="@drawable/round_corner_yellow"
                 android:paddingStart="7dp"
                 android:paddingTop="9dp"
                 android:paddingEnd="7dp"
@@ -70,7 +70,7 @@
                 android:layout_width="170dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="3dp"
-                android:background="@drawable/round_corner"
+                android:background="@drawable/round_corner_yellow"
                 android:inputType="numberDecimal"
                 android:paddingStart="7dp"
                 android:paddingTop="9dp"
@@ -93,7 +93,7 @@
                 android:layout_width="170dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="3dp"
-                android:background="@drawable/round_corner"
+                android:background="@drawable/round_corner_yellow"
                 android:inputType="numberDecimal"
                 android:paddingStart="7dp"
                 android:paddingTop="9dp"
@@ -115,7 +115,7 @@
                 android:layout_width="170dp"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="3dp"
-                android:background="@drawable/round_corner"
+                android:background="@drawable/round_corner_yellow"
                 android:inputType="numberDecimal"
                 android:paddingStart="7dp"
                 android:paddingTop="9dp"
@@ -172,9 +172,9 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/green"
-            android:paddingStart="20dp"
+            android:paddingStart="25dp"
             android:paddingTop="10dp"
-            android:paddingEnd="20dp">
+            android:paddingEnd="25dp">
 
             <TextView
                 android:id="@+id/tvPastReceipts"
@@ -189,6 +189,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
+                android:padding="10dp"
+                android:background="@drawable/round_corner_white"
                 app:layout_constraintStart_toStartOf="@id/tvPastReceipts"
                 app:layout_constraintTop_toBottomOf="@id/tvPastReceipts" />
 

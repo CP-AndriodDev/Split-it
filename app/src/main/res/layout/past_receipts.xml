@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/tv_restaurant_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restaurant: "
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_restaurant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BCD"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/tv_restaurant_text"
+        app:layout_constraintTop_toTopOf="@id/tv_restaurant_text" />
+
+    <TextView
+        android:id="@+id/tv_bill_total_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bill Total: "
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@id/tv_restaurant_text"
+        app:layout_constraintTop_toBottomOf="@id/tv_restaurant_text" />
+
+    <TextView
+        android:id="@+id/tv_bill_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="50"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/tv_bill_total_text"
+        app:layout_constraintTop_toTopOf="@id/tv_bill_total_text" />
+
+    <TextView
+        android:id="@+id/tv_tax_total_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tax Total: "
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@id/tv_bill_total_text"
+        app:layout_constraintTop_toBottomOf="@id/tv_bill_total_text" />
+
+    <TextView
+        android:id="@+id/tv_tax_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/tv_tax_total_text"
+        app:layout_constraintTop_toTopOf="@id/tv_tax_total_text" />
+
+    <TextView
+        android:id="@+id/tv_tip_total_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tip Total: "
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@id/tv_tax_total_text"
+        app:layout_constraintTop_toBottomOf="@id/tv_tax_total_text" />
+
+    <TextView
+        android:id="@+id/tv_tip_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15%"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/tv_tip_total_text"
+        app:layout_constraintTop_toTopOf="@id/tv_tip_total_text" />
+
+    <TextView
+        android:id="@+id/tv_split_amount_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Split Amount: "
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@id/tv_tip_total_text"
+        app:layout_constraintTop_toBottomOf="@id/tv_tip_total_text" />
+
+    <TextView
+        android:id="@+id/tv_split_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/tv_split_amount_text"
+        app:layout_constraintTop_toTopOf="@id/tv_split_amount_text" />
+
+    <TextView
+        android:id="@+id/tv_my_portion_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Portion: "
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@id/tv_split_amount_text"
+        app:layout_constraintTop_toBottomOf="@id/tv_split_amount_text" />
+
+    <TextView
+        android:id="@+id/tv_my_portion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15.63"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/tv_my_portion_text"
+        app:layout_constraintTop_toTopOf="@id/tv_my_portion_text" />
+
+    <TextView
+        android:id="@+id/tv_date_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date: "
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@id/tv_my_portion_text"
+        app:layout_constraintTop_toBottomOf="@id/tv_my_portion_text" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="04/11/2024"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/tv_date_text"
+        app:layout_constraintTop_toTopOf="@id/tv_date_text" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
