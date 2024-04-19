@@ -10,6 +10,7 @@ import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.billsplit.databinding.ActivityMainBinding
+import androidx.recyclerview.widget.DividerItemDecoration
 import java.text.NumberFormat
 import java.text.SimpleDateFormat
 import java.util.*
@@ -67,6 +68,9 @@ class MainActivity : AppCompatActivity() {
         pastReceiptsAdapter = PastReceiptsAdapter(pastReceiptsList)
         binding.rvPastReceipts.adapter = pastReceiptsAdapter
         binding.rvPastReceipts.layoutManager = LinearLayoutManager(this)
+
+        val dividerItemDecoration = DividerItemDecoration(this, LinearLayoutManager.VERTICAL)
+        binding.rvPastReceipts.addItemDecoration(dividerItemDecoration)
     }
 
     private fun updateTipPercentage(newTipPercentage: Double) {
