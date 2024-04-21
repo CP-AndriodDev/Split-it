@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/tv_bill_total_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bill Total: "
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_bill_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="50"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/tv_bill_total_text"
+        app:layout_constraintTop_toTopOf="@id/tv_bill_total_text" />
+
+    <TextView
+        android:id="@+id/tv_tax_total_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tax Total: "
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@id/tv_bill_total_text"
+        app:layout_constraintTop_toBottomOf="@id/tv_bill_total_text" />
+
+    <TextView
+        android:id="@+id/tv_tax_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/tv_tax_total_text"
+        app:layout_constraintTop_toTopOf="@id/tv_tax_total_text" />
+
+    <TextView
+        android:id="@+id/tv_tip_total_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tip Total: "
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@id/tv_tax_total_text"
+        app:layout_constraintTop_toBottomOf="@id/tv_tax_total_text" />
+
+    <TextView
+        android:id="@+id/tv_tip_total"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15%"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/tv_tip_total_text"
+        app:layout_constraintTop_toTopOf="@id/tv_tip_total_text" />
+
+    <TextView
+        android:id="@+id/tv_all_amount_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount for all: "
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@id/tv_tip_total_text"
+        app:layout_constraintTop_toBottomOf="@id/tv_tip_total_text" />
+
+    <TextView
+        android:id="@+id/tv_all_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/tv_all_amount_text"
+        app:layout_constraintTop_toTopOf="@id/tv_all_amount_text" />
+
+    <TextView
+        android:id="@+id/tv_my_portion_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Portion: "
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="@id/tv_all_amount_text"
+        app:layout_constraintTop_toBottomOf="@id/tv_all_amount_text" />
+
+    <TextView
+        android:id="@+id/tv_my_portion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="15.63"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/tv_my_portion_text"
+        app:layout_constraintTop_toTopOf="@id/tv_my_portion_text" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
