@@ -58,8 +58,13 @@ Here's a video that demos all of the app's implemented features:
 <img src='https://github.com/CP-AndriodDev/Split-it/assets/100315684/7d96e66b-3701-4ad6-af9f-3ce1be7d9973' title='Video Demo' width='250' alt='Video Demo' />
 
 
-VIDEO created with **LICEcap**
-Link to Demo Video: https://vimeo.com/938081123?share=copy
+VIDEO created with **LICEcap**  
+
+## Demo Video  
+<img src='https://vimeo.com/938081123?share=copy' title='Video Demo' width='250' alt='Video Demo' />  
+
+Link to Demo Video: https://vimeo.com/938081123?share=copy  
+
 ## Notes
 
 Here's a place for any other notes on this milestone!
