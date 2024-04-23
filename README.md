@@ -22,10 +22,10 @@ If we had to describe this milestone in three (3) emojis, they would be: ðŸ’µðŸ‘
 The following REQUIRED features are completed:
 
 - [x] Assign features to each member of your group
-  - [ ] UI/UX design/ Wireframing - Cali
-  - [ ] Design Implementation and Receipt Calculator and output
-  - [ ] API Integration with the search bar
-- [ ] Establish a goal time for completing each feature
+  - [x] UI/UX design/ Wireframing - Cali
+  - [x] Design Implementation and Receipt Calculator and output
+  - [x] API Integration with the search bar
+- [x] Establish a goal time for completing each feature
 
 The following REQUIRED files are included:
 
