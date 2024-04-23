@@ -1,6 +1,6 @@
 <!-- (This is a comment) INSTRUCTIONS: Go through this page and fill out any **bolded** entries with their correct values.-->
 
-# AND101 Milestone 1 - **Split-it**
+# AND101 Milestone 2 - **Split-it**
 
 Submitted by:
 - **Team Member 1 Hao Thai**
@@ -21,28 +21,34 @@ If we had to describe this milestone in three (3) emojis, they would be: 💵�
 
 The following REQUIRED features are completed:
 
-- [X] Creation of GitHub Organization and Group Project Repo
-- [X] Updated Course Portal group info with Group Name and App Description
+- [x] Assign features to each member of your group
+  - [ ] UI/UX design/ Wireframing - Cali
+  - [ ] Design Implementation and Receipt Calculator and output
+  - [ ] API Integration with the search bar
+- [ ] Establish a goal time for completing each feature
 
 The following REQUIRED files are included:
 
-- [X] Included 📄 `brainstorming.md`, which contains:
-  - [X] Our initial brainstorming ideas (6+ ideas)
-  - [X] 5-category evaluation of our top 3 ideas
-  - [X] Final app idea chosen
-- [X] Included 📄 `project_spec.md`, which contains:
-  - [X] App Overview: Description and evaluation
-  - [X] App Spec: User features, Chosen API(s), User Interactions
-  - [X] Wireframe image(s)
+- [ ] Updated 📄 `project_spec.md`, which contains:
+  - [X] App Overview (Milestone 1)
+  - [X] App Spec (Milestone 1)
+  - [ ] Checked off 2+ completed features
+  - [ ] 2+ Videos/GIFs of build progress
 
-The following BONUS features are implemented:
-
-- [X] Added digital wireframe/mockup image(s)
-- [ ] Added a Video/GIF of an interactive prototype
+- [ ] Our 🎥 Demo Video
+  - [ ] We have also added the Demo Video Link to the Group Info Form on the course portal.
 
 The following EXTRA features are implemented:
 
 - [ ] List anything else that you added to improve your submission!
+
+## 🎥 Demo Video
+
+Here's a video that demos all of the app's implemented features:
+
+<img src='https://github.com/CP-AndriodDev/Split-it/assets/100315684/916081bf-3baa-41b8-b2a6-272faaf7f790' title='Video Demo' width='' alt='Video Demo' />
+
+VIDEO created with **your chosen video tool**
 
 ## Notes
 
