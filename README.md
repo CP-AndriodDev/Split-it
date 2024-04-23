@@ -61,7 +61,6 @@ Here's a video that demos all of the app's implemented features:
 VIDEO created with **LICEcap**  
 
 ## Demo Video  
-<img src='https://vimeo.com/938081123?share=copy' title='Video Demo' width='250' alt='Video Demo' />  
 
 Link to Demo Video: https://vimeo.com/938081123?share=copy  
 
