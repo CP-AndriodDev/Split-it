@@ -7,7 +7,7 @@ Submitted by:
 - **Team Member 2 Cali Kuang**
 - **Team Member 3 Minh Ngoc**
 
-Time spent: 5 hours spent in total
+Time spent: 20 hours spent in total
 
 ## Summary
 
