@@ -46,7 +46,7 @@ The following EXTRA features are implemented:
 
 Here's a video that demos all of the app's implemented features:
 
-<img src='https://github.com/CP-AndriodDev/Split-it/assets/100315684/916081bf-3baa-41b8-b2a6-272faaf7f790' title='Video Demo' width='' alt='Video Demo' />
+<img src='https://github.com/CP-AndriodDev/Split-it/assets/100315684/916081bf-3baa-41b8-b2a6-272faaf7f790' title='Video Demo' width='450' alt='Video Demo' />
 
 VIDEO created with **your chosen video tool**
 
