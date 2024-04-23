@@ -29,7 +29,7 @@ The following REQUIRED features are completed:
 
 The following REQUIRED files are included:
 
-- [ ] Updated 📄 `project_spec.md`, which contains:
+- [x] Updated 📄 `project_spec.md`, which contains:
   - [X] App Overview (Milestone 1)
   - [X] App Spec (Milestone 1)
   - [ ] Checked off 2+ completed features
@@ -48,7 +48,15 @@ Here's a video that demos all of the app's implemented features:
 
 <img src='https://github.com/CP-AndriodDev/Split-it/assets/100315684/916081bf-3baa-41b8-b2a6-272faaf7f790' title='Video Demo' width='250' alt='Video Demo' />
 
-VIDEO created with **your chosen video tool**
+# Search bar with Recycle view to display Search List
+<img src='https://github.com/CP-AndriodDev/Split-it/assets/100315684/0b6d047f-d4a2-4d8e-8e03-062a4140626f' title='Video Demo' width='250' alt='Video Demo' />
+
+# AutoFill Feature to Restaurant Name
+<img src='https://github.com/CP-AndriodDev/Split-it/assets/100315684/dcb3087f-0ef5-41e1-90a2-e77d9a70fd26' title='Video Demo' width='250' alt='Video Demo' />
+
+# Bill Splitter Calculator
+
+VIDEO created with **LICEcap**
 
 ## Notes
 
