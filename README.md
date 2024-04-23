@@ -54,7 +54,9 @@ Here's a video that demos all of the app's implemented features:
 # AutoFill Feature to Restaurant Name
 <img src='https://github.com/CP-AndriodDev/Split-it/assets/100315684/dcb3087f-0ef5-41e1-90a2-e77d9a70fd26' title='Video Demo' width='250' alt='Video Demo' />
 
-# Bill Splitter Calculator
+# Bill Splitter Calculator, Receipt Output, Tip Slider, Saved Previous Receipt History
+<img src='https://github.com/CP-AndriodDev/Split-it/assets/100315684/7d96e66b-3701-4ad6-af9f-3ce1be7d9973' title='Video Demo' width='250' alt='Video Demo' />
+
 
 VIDEO created with **LICEcap**
 
