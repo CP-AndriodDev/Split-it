@@ -59,7 +59,7 @@ Here's a video that demos all of the app's implemented features:
 
 
 VIDEO created with **LICEcap**
-
+Link to Demo Video: https://vimeo.com/938081123?share=copy
 ## Notes
 
 Here's a place for any other notes on this milestone!
