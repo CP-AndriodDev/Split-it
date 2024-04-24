@@ -73,10 +73,20 @@
         android:id="@+id/tv_tip_total"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="15%"
+        android:text="15"
         android:textSize="16sp"
         app:layout_constraintStart_toEndOf="@id/tv_tip_total_text"
         app:layout_constraintTop_toTopOf="@id/tv_tip_total_text" />
+
+    <TextView
+        android:id="@+id/tv_tip_total_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="%"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/tv_tip_total"
+        app:layout_constraintTop_toTopOf="@id/tv_tip_total" />
+
 
     <TextView
         android:id="@+id/tv_split_amount_text"

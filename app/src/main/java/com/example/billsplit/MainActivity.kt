@@ -147,7 +147,7 @@ class MainActivity : AppCompatActivity() {
                 val restaurantName = binding.etRestaurantName.text.toString()
                 val billTotal = binding.etBillTotal.text.toString().toDoubleOrNull() ?: 0.0
                 val taxTotal = binding.etTaxTotal.text.toString().toDoubleOrNull() ?: 0.0
-                val tipPercentage = tipPercentage
+                val tipPercentage = tipPercentage * 100
                 val splitAmount = numberOfPeople
                 val myPortion = totalAmountPerPerson
                 val date = getCurrentDate() // You'll need to implement this function to get the current date
