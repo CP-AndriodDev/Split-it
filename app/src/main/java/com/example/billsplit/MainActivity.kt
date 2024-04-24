@@ -116,7 +116,7 @@ class MainActivity : AppCompatActivity() {
                 "Total Amount Per Person: $totalAmountPerPerson"
 
         // Show the result dialog
-        showResultDialog(baseAmount, taxAmount, tipAmount, totalAmountForAll, totalAmountPerPerson)
+        showResultDialog(baseAmount, taxAmount, tipAmount, totalAmountForAll, totalAmountPerPerson, numberOfPeople)
     }
 
     private val textWatcher = object : TextWatcher {
@@ -126,7 +126,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun showResultDialog(baseAmount: Double, taxAmount: Double, tipAmount: Double, totalAmountForAll: Double, totalAmountPerPerson: Double) {
+    private fun showResultDialog(baseAmount: Double, taxAmount: Double, tipAmount: Double, totalAmountForAll: Double, totalAmountPerPerson: Double, numberOfPeople: Int) {
         val dialogView = layoutInflater.inflate(R.layout.dialog_result, null)
         val tvBillTotal = dialogView.findViewById<TextView>(R.id.tv_bill_total)
         val tvTaxAmount = dialogView.findViewById<TextView>(R.id.tv_tax_total)
