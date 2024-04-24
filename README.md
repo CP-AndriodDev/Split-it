@@ -1,13 +1,13 @@
 <!-- (This is a comment) INSTRUCTIONS: Go through this page and fill out any **bolded** entries with their correct values.-->
 
-# AND101 Milestone 1 - **Split-it**
+# AND101 Milestone 2 - **Split-it**
 
 Submitted by:
 - **Team Member 1 Hao Thai**
 - **Team Member 2 Cali Kuang**
 - **Team Member 3 Minh Ngoc**
 
-Time spent: 5 hours spent in total
+Time spent: 20 hours spent in total
 
 ## Summary
 
@@ -21,28 +21,48 @@ If we had to describe this milestone in three (3) emojis, they would be: 💵�
 
 The following REQUIRED features are completed:
 
-- [X] Creation of GitHub Organization and Group Project Repo
-- [X] Updated Course Portal group info with Group Name and App Description
+- [x] Assign features to each member of your group
+  - [x] UI/UX design/ Wireframing - Cali
+  - [x] Design Implementation and Receipt Calculator and output
+  - [x] API Integration with the search bar
+- [x] Establish a goal time for completing each feature
 
 The following REQUIRED files are included:
 
-- [X] Included 📄 `brainstorming.md`, which contains:
-  - [X] Our initial brainstorming ideas (6+ ideas)
-  - [X] 5-category evaluation of our top 3 ideas
-  - [X] Final app idea chosen
-- [X] Included 📄 `project_spec.md`, which contains:
-  - [X] App Overview: Description and evaluation
-  - [X] App Spec: User features, Chosen API(s), User Interactions
-  - [X] Wireframe image(s)
+- [x] Updated 📄 `project_spec.md`, which contains:
+  - [X] App Overview (Milestone 1)
+  - [X] App Spec (Milestone 1)
+  - [ ] Checked off 2+ completed features
+  - [ ] 2+ Videos/GIFs of build progress
 
-The following BONUS features are implemented:
-
-- [X] Added digital wireframe/mockup image(s)
-- [ ] Added a Video/GIF of an interactive prototype
+- [ ] Our 🎥 Demo Video
+  - [ ] We have also added the Demo Video Link to the Group Info Form on the course portal.
 
 The following EXTRA features are implemented:
 
 - [ ] List anything else that you added to improve your submission!
+
+## 🎥 Demo Video
+
+Here's a video that demos all of the app's implemented features:
+
+<img src='https://github.com/CP-AndriodDev/Split-it/assets/100315684/916081bf-3baa-41b8-b2a6-272faaf7f790' title='Video Demo' width='250' alt='Video Demo' />
+
+# Search bar with Recycle view to display Search List
+<img src='https://github.com/CP-AndriodDev/Split-it/assets/100315684/0b6d047f-d4a2-4d8e-8e03-062a4140626f' title='Video Demo' width='250' alt='Video Demo' />
+
+# AutoFill Feature to Restaurant Name
+<img src='https://github.com/CP-AndriodDev/Split-it/assets/100315684/dcb3087f-0ef5-41e1-90a2-e77d9a70fd26' title='Video Demo' width='250' alt='Video Demo' />
+
+# Bill Splitter Calculator, Receipt Output, Tip Slider, Saved Previous Receipt History
+<img src='https://github.com/CP-AndriodDev/Split-it/assets/100315684/7d96e66b-3701-4ad6-af9f-3ce1be7d9973' title='Video Demo' width='250' alt='Video Demo' />
+
+
+VIDEO created with **LICEcap**  
+
+## Demo Video  
+
+Link to Demo Video: https://vimeo.com/938081123?share=copy  
 
 ## Notes
 
